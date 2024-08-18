@@ -7,7 +7,7 @@ const app = express();
 const upload = multer({ dest: 'uploads/' });
 
 const replicate = new Replicate({
-    auth: "your-api-key"
+    auth: "r8_PRG52AGLFASIIq9lh7Rb0wS6JRgsHpT0b8cGd"
 });
 
 app.use(express.static('public'));
